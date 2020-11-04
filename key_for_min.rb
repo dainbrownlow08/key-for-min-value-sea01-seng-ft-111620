@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
       values.push(value)
     end
     values = values.sort
-    
+    name_hash
   end
 end
